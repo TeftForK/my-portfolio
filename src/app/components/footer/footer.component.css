@@ -1,0 +1,28 @@
+footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+hr {
+    border: 1px dashed #68EE39;
+    margin-bottom: 2%;
+}
+
+form {
+    padding: 8px;
+    margin-left: 3vw;
+}
+
+.email {
+    color: #68EE39;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+

@@ -1,0 +1,27 @@
+<footer>
+    <hr>
+
+    <div style=" display: grid; grid-template-columns: auto auto auto; justify-content: center; margin-bottom: 5vh;">
+        <div>
+            <button type="button" (click)="openLink()" style="background: none; border: none;">
+                <img style="width: 40px;" src="assets/img/iconLinkedin.png" alt="linkedin">
+            </button>
+        </div>
+        <div style="margin-left: 3vw;">
+            <p class="email">
+                giorgi.kokaia.1@btu.edu.ge
+            </p>
+        </div>
+        <div>
+            <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+                <input type="email" formControlName="subscribe" style="padding: 10px; width: 31vh; border: 1px solid; border-radius: 6px;" required>
+                <input type="submit" value="Subscribe" style="border: 1px solid; border-radius: 16px; height: 3.5vh; background-color: #68EE39;">
+              </form>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright &copy; Giorgi Kokaia, 2023  All Rights Reserved.</p>
+    </div>
+</footer>

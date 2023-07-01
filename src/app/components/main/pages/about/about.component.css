@@ -1,0 +1,98 @@
+#about{
+    height: 100vh;
+}
+.about-grid {
+    color: #68EE39;
+    font-size: 90px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: monospace;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.about-grid span {
+    font-size: 60px;
+}
+
+/* .profession {
+    margin-top: 2%;
+} */
+
+.info{
+  margin-top: 19vh;
+}
+
+.img {
+  margin-right: 6vw;
+} 
+
+
+
+h1 {
+    font-size: 90px;
+    margin-top: 2%;
+    font-family: monospace;
+    font-weight: normal;
+}
+  
+@keyframes typing {
+    0% { content: ""; }
+    5% { content: "I"; }
+    10% { content: "In"; }
+    15% { content: "Inc"; }
+    20% { content: "Inci"; }
+    25% { content: "Incid"; }
+    30% { content: "Incide"; }
+    35% { content: "Inciden"; }
+    40% { content: "Incident"; }
+    45% { content: "Incident "; }
+    50% { content: "Incident r"; }
+    55% { content: "Incident re"; }
+    60% { content: "Incident res"; }
+    65% { content: "Incident resp"; }
+    70% { content: "Incident respo"; }
+    75% { content: "Incident respon"; }
+    80% { content: "Incident respond"; }
+    85% { content: "Incident responde"; }
+    90% { content: "Incident responder"; }
+    100% { content: "Incident responder"; }
+}
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 10s steps(18) infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
+  
+  .typewriter.thick::after {
+    border-right: 1ch solid var(--caret);
+  }
+  
+  .typewriter.nocaret::after {
+    border-right: 0;
+  }
+  
+
+  .title{
+    color: white;
+    /* margin-left: 4%; */
+    padding: 5%;
+    font-family: monospace;
+    font-size: 50px;
+  }

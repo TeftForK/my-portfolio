@@ -1,0 +1,42 @@
+#experience {
+    height: 110vh;
+}
+
+.experience-grid {
+  margin-left: 6%;
+}
+
+.code {
+  width: 20%;
+}
+
+.search {
+  background: #c9c9c9 ;
+  width: 17.4%;
+}
+
+.cyber {
+  width: 21.4%;
+}
+
+.Dga {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.Dga h3{
+  color: white;
+  position: absolute;
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.title{
+    color: white;
+    /* margin-left: 4%; */
+    padding: 5%;
+    font-family: monospace;
+    font-size: 50px;
+  }
+  
